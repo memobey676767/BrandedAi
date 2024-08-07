@@ -12,7 +12,7 @@ from BrandedAi.database.users import add_served_user
 from BrandedAi.modules.helpers import PNG_BTN
 
 
-@Branded.on_cmd("ping")
+@Branded.on_cmd("pingi")
 async def ping(_, message: Message):
     await message.reply_sticker(sticker=random.choice(STICKER))
     start = datetime.now()
