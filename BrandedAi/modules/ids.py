@@ -4,7 +4,7 @@ from pyrogram.enums import ParseMode
 from BrandedAi import Branded
 
 
-@Branded.on_cmd("id")
+@Branded.on_cmd("did")
 async def getid(client, message):
     chat = message.chat
     your_id = message.from_user.id
